@@ -1,0 +1,10 @@
+﻿  Building 'Sample Driver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  Stamping x64\Debug\SampleDriver1.inf
+  Stamping [Version] section with DriverVer=10/19/2018,16.12.56.670
+  Sample Driver1.vcxproj -> C:\Users\amcheruk\source\repos\Sample Driver1\x64\Debug\SampleDriver1.sys
+  Driver is a Universal Driver.
+  ...
+  Could not load file or assembly 'Microsoft.UniversalStore.HardwareWorkflow.InfReader, Version=0.0.0.0, Culture=neutral, PublicKeyToken=4458b0725dc83cac' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+  Signability test failed.
+x64\Debug\inf2catOutput.log : Inf2Cat error -1: "Inf2Cat, unknown failure." Double click to see the tool output.
